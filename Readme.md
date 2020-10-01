@@ -1,4 +1,4 @@
-# E-commerce RESTful api
+# E-commerce RESTful api BY [KARAN]("http://thebigk.ml")
 
 ## Steps to use
 
