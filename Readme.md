@@ -13,7 +13,7 @@
    }
    ```
 
-2. Change the MongoDB uri in app.js
+2. Change the MongoDB uri in [app.js]("./app.js")
 
 ```
 6 mongoose.connect(
