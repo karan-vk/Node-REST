@@ -7,7 +7,7 @@ mongoose.connect(
   "mongodb+srv://user:" +
     process.env.MONGO_ATLAS_PW +
     "@cluster0.odxd9.gcp.mongodb.net/RestMax?retryWrites=true&w=majority",
-  { useNewUrlParser: true, useUnifiedTopology: true }
+  { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
 );
 
 const productRoutes = require("./api/routes/products");
