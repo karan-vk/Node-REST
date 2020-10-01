@@ -115,7 +115,7 @@ exports.products_update_product = (req, res, next) => {
 };
 exports.product_delete_product = (req, res, next) => {
   const id = req.params.productId;
-  Product.remove({ _id: id })
+  Product.deleteOne({ _id: id })
     .exec()
     .then((result) => {
       res.status(200).json({
